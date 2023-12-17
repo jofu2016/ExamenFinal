@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_CRCICLISMOModelStoreContainer" CdmEntityContainer="DB_CRCICLISMOEntities">
+    <EntitySetMapping Name="TB_BICIS">
+      <EntityTypeMapping TypeName="DB_CRCICLISMOModel.TB_BICIS">
+        <MappingFragment StoreEntitySet="TB_BICIS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
